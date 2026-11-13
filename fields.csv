@@ -1,0 +1,416 @@
+dataset_id,column_name,position,data_type,description
+a_applications_dbe,INDUSTRY,1,string,Market segment reported by the Commission such as Adult-Use
+a_applications_dbe,DBE,2,string,Diversity business category self-reported on the application
+a_applications_dbe,TOTAL,3,integer,Count of applications in the category
+a_applications_dbe,PERCENT_TOTAL,4,decimal,Share of all applications expressed as a decimal fraction
+a_applications_dbe,CCCLastUpdated,5,date,Date the Commission last refreshed the file in YYYY-MM-DD form
+a_applications_all,INDUSTRY,1,string,Market segment reported by the Commission such as Adult-Use
+a_applications_all,LICENSE_TYPE,2,string,License category applied for
+a_applications_all,APPLICATION_STATUS,3,string,Application status such as APPROVED or PENDING
+a_applications_all,TOTAL,4,integer,Count of applications in the group
+a_applications_all,PERCENT_TOTAL,5,decimal,Share of all applications expressed as a decimal fraction
+a_applications_all,CCCLastUpdated,6,date,Date the Commission last refreshed the file
+a_agents_gender,GENDER,1,string,Self-reported gender category of active agents
+a_agents_gender,TOTAL,2,integer,Count of active agents in the category
+a_agents_gender,%_TOTAL,3,decimal,Share of active agents expressed as a decimal fraction
+a_agents_gender,CCCLastUpdated,4,date,Date the Commission last refreshed the file
+a_agents_raceethnicity,RACE_ETHNICITY,1,string,Self-reported race or ethnicity category of active agents
+a_agents_raceethnicity,TOTAL,2,integer,Count of active agents in the category
+a_agents_raceethnicity,%_TOTAL,3,decimal,Share of active agents expressed as a decimal fraction
+a_agents_raceethnicity,CCCLastUpdated,4,date,Date the Commission last refreshed the file
+a_sales_au_price_per_gram,YEARMONTH,1,string,Calendar month of the observation in YYYY-MM form
+a_sales_au_price_per_gram,AVERAGERETAILPRICEPERGM,2,decimal,Average retail price per gram in US dollars
+a_sales_au_price_per_gram,UNIT,3,string,Unit the price is expressed in
+a_sales_au_price_per_gram,CCCLastUpdated,4,date,Date the Commission last refreshed the file
+a_sales_au_gross,SALEPERIOD,1,string,Reporting window covered by the file
+a_sales_au_gross,SALEDATE,2,date,Date of the sales observation
+a_sales_au_gross,SALESPERIODTYPE,3,string,Whether the row is Historical or current period
+a_sales_au_gross,INDUSTRY,4,string,Market segment such as Adult-Use
+a_sales_au_gross,DATATYPE,5,string,Sales channel such as Retail or Delivery
+a_sales_au_gross,PRODUCTCATEGORYNAME,6,string,Product category as reported in Metrc
+a_sales_au_gross,UNITOFMEASURENAME,7,string,Unit of measure that applies to QUANTITY
+a_sales_au_gross,QUANTITY,8,decimal,Quantity sold in the stated unit of measure
+a_sales_au_gross,UNITS,9,integer,Number of discrete units sold
+a_sales_au_gross,TOTAL_$,10,decimal,Gross sales in US dollars
+a_sales_au_gross,RECEIPTS,11,integer,Number of sales receipts
+a_sales_au_gross,CCCLastUpdated,12,date,Date the Commission last refreshed the file
+a_sales_au_deliveries,SALEPERIOD,1,string,Reporting window covered by the file
+a_sales_au_deliveries,SALEDATE,2,date,Date of the sales observation
+a_sales_au_deliveries,SALESPERIODTYPE,3,string,Whether the row is Historical or current period
+a_sales_au_deliveries,INDUSTRY,4,string,Market segment such as Adult-Use
+a_sales_au_deliveries,DATATYPE,5,string,Sales channel such as Delivery Couriers or Delivery Operators
+a_sales_au_deliveries,PRODUCTCATEGORYNAME,6,string,Product category as reported in Metrc
+a_sales_au_deliveries,UNITOFMEASURENAME,7,string,Unit of measure that applies to QUANTITY
+a_sales_au_deliveries,QUANTITY,8,decimal,Quantity sold in the stated unit of measure
+a_sales_au_deliveries,UNITS,9,integer,Number of discrete units sold
+a_sales_au_deliveries,TOTAL_$,10,decimal,Gross sales in US dollars
+a_sales_au_deliveries,RECEIPTS,11,integer,Number of sales receipts
+a_sales_au_deliveries,CCCLastUpdated,12,date,Date the Commission last refreshed the file
+a_sales_mtc_gross,SALEPERIOD,1,string,Reporting window covered by the file
+a_sales_mtc_gross,SALEDATE,2,date,Date of the sales observation
+a_sales_mtc_gross,SALESPERIODTYPE,3,string,Whether the row is Historical or current period
+a_sales_mtc_gross,INDUSTRY,4,string,Market segment reported as Medical
+a_sales_mtc_gross,DATATYPE,5,string,Sales channel such as Retail
+a_sales_mtc_gross,PRODUCTCATEGORYNAME,6,string,Product category as reported in Metrc
+a_sales_mtc_gross,UNITOFMEASURENAME,7,string,Unit of measure that applies to QUANTITY
+a_sales_mtc_gross,QUANTITY,8,decimal,Quantity sold in the stated unit of measure
+a_sales_mtc_gross,UNITS,9,integer,Number of discrete units sold
+a_sales_mtc_gross,TOTAL_$,10,decimal,Gross sales in US dollars
+a_sales_mtc_gross,RECEIPTS,11,integer,Number of sales receipts
+a_sales_mtc_gross,CCCLastUpdated,12,date,Date the Commission last refreshed the file
+a_sales_au_activityvolume,INDUSTRY,1,string,Market segment such as Adult-use or Medical
+a_sales_au_activityvolume,ACTIVITYSUMMARYDATE,2,string,Month summarized in YYYY-MM form
+a_sales_au_activityvolume,FACILITYTYPENAME,3,string,Facility type such as Marijuana Cultivator
+a_sales_au_activityvolume,STRAINACTIVECOUNT,4,integer,Count of active strains
+a_sales_au_activityvolume,HARVESTACTIVECOUNT,5,integer,Count of active harvests
+a_sales_au_activityvolume,PLANTVEGETATIVECOUNT,6,integer,Count of plants in the vegetative stage
+a_sales_au_activityvolume,PLANTFLOWERINGCOUNT,7,integer,Count of flowering plants
+a_sales_au_activityvolume,PLANTHARVESTEDCOUNT,8,integer,Count of harvested plants
+a_sales_au_activityvolume,PLANTDESTROYEDCOUNT,9,integer,Count of destroyed plants
+a_sales_au_activityvolume,CCCLastUpdated,10,date,Date the Commission last refreshed the file
+CCC_Testing_Results_2025,DATE,1,date,Date associated with the test result
+CCC_Testing_Results_2025,METRC ID,2,string,Metrc package identifier for the tested sample
+CCC_Testing_Results_2025,METRC SOURCE TAG,3,string,Metrc source tag of the originating package
+CCC_Testing_Results_2025,ANALYTE/TEST ID,4,string,Analyte or test identifier
+CCC_Testing_Results_2025,RESULT,5,string,Reported test result value
+CCC_Testing_Results_2025,TESTPASSED,6,string,Whether the sample passed the test
+CCC_Testing_Results_2025,LAB PERFORMING THE TEST,7,string,Independent testing laboratory that ran the test
+CCC_Testing_Results_2025,NOTES/COMMENTS,8,string,Free text notes published with the result
+Testing_Results_2024_20260415_OpenData,Date,1,date,Date associated with the test result
+Testing_Results_2024_20260415_OpenData,METRC ID,2,string,Metrc package identifier for the tested sample
+Testing_Results_2024_20260415_OpenData,METRC source tag,3,string,Metrc source tag of the originating package
+Testing_Results_2024_20260415_OpenData,Test ID,4,string,Identifier of the test record
+Testing_Results_2024_20260415_OpenData,Strain,5,string,Strain name reported for the sample
+Testing_Results_2024_20260415_OpenData,Lab performing the test,6,string,Independent testing laboratory that ran the test
+Testing_Results_2024_20260415_OpenData,TestCategory,7,string,Category of test performed
+Testing_Results_2024_20260415_OpenData,Analyte/Test ID,8,string,Analyte or test identifier
+Testing_Results_2024_20260415_OpenData,Result,9,string,Reported test result value
+Testing_Results_2024_20260415_OpenData,Quantity,10,decimal,Quantity associated with the tested sample
+Testing_Results_2024_20260415_OpenData,UnitOfMeasure,11,string,Unit of measure for Quantity
+Testing_Results_2024_20260415_OpenData,TestPassed,12,string,Whether the sample passed the test
+Testing_Results_2024_20260415_OpenData,ProductCategoryTypeName,13,string,Product category type of the tested sample
+Testing_Results_2024_20260415_OpenData,Notes/comments,14,string,Free text notes published with the result
+l_applications_all_details,BUSINESS_NAME,1,string,Legal business name of the applicant
+l_applications_all_details,BUSINESS_EMAIL,2,string,Business contact email provided on the application
+l_applications_all_details,BUSINESS_PHONE,3,string,Business contact phone provided on the application
+l_applications_all_details,BUSINESS_ADDRESS_1,4,string,Business street address line 1
+l_applications_all_details,BUSINESS_ADDRESS_2,5,string,Business street address line 2
+l_applications_all_details,BUSINESS_CITY,6,string,Business address city
+l_applications_all_details,BUSINESS_STATE,7,string,Business address state
+l_applications_all_details,BUSINESS_ZIP_CODE,8,string,Business address ZIP code
+l_applications_all_details,MAILING_ADDRESS_1,9,string,Mailing address line 1
+l_applications_all_details,MAILING_ADDRESS_2,10,string,Mailing address line 2
+l_applications_all_details,MAILING_CITY,11,string,Mailing address city
+l_applications_all_details,MAILING_STATE,12,string,Mailing address state
+l_applications_all_details,MAILING_ZIP_CODE,13,string,Mailing address ZIP code
+l_applications_all_details,EIN_TIN,14,string,Employer or taxpayer identification number as filed
+l_applications_all_details,LICENSE_NUMBER,15,string,Full Commission license number including suffix
+l_applications_all_details,LICENSE_TYPE,16,string,License category applied for
+l_applications_all_details,REVIEW_PRIORITY,17,string,Review track assigned to the application
+l_applications_all_details,FIRST_COMPLIANCE_REVIEW_DATE,18,date,Date of the first compliance review
+l_applications_all_details,CNB_DEEMED_COMPLETE_DATE,19,date,Date the application was deemed complete
+l_applications_all_details,APPROVED_LICENSE_STAGE,20,string,Licensing stage reached by the application
+l_applications_all_details,LICENSE_STATUS,21,string,Current license status
+l_applications_all_details,LIC_FEE_PAYMENT_SUBMITTED_DATE,22,date,Date the license fee payment was submitted
+l_applications_all_details,LIC_FEE_AMOUNT,23,decimal,License fee amount in US dollars
+l_applications_all_details,ESTABLISHMENT_ADDRESS_2,24,string,Establishment street address line 2
+l_applications_all_details,PRIORITY,25,string,Priority flag recorded on the application
+l_applications_all_details,FEE_WAIVER_REQUEST,26,string,Whether a fee waiver was requested
+l_applications_all_details,FEE_WAIVER_EE_OR_SE_NUMBER,27,string,Economic empowerment or social equity number used for the waiver
+l_applications_all_details,APPROVED_SOCIAL_EQUITY,28,string,Whether social equity status was approved
+l_applications_all_details,EE_PRIORITY_STATUS,29,string,Economic empowerment priority status
+l_applications_all_details,EE_PRIORITY_NUMBER_FROM_ACCOUNT,30,string,Economic empowerment priority number from the account record
+l_applications_all_details,EE_PRIORITY_NUMBER_FROM_APPLICATION,31,string,Economic empowerment priority number from the application record
+l_applications_all_details,RMD_PRIORITY_STATUS,32,string,Registered marijuana dispensary priority status
+l_applications_all_details,RMD_PRIORITY_NUMBER_FROM_ACCOUNT,33,string,RMD priority number from the account record
+l_applications_all_details,RMD_PRIORITY_NUMBER_FROM_APPLICATION,34,string,RMD priority number from the application record
+l_applications_all_details,DBE,35,string,Diversity business category self-reported by the applicant
+l_applications_all_details,CULTIVATION_ENVIRONMNET,36,string,Cultivation environment such as indoor or outdoor (name misspelled at source)
+l_applications_all_details,CULTIVATION_TIER,37,string,Cultivation canopy tier assigned to the license
+l_applications_all_details,CNB_INITIAL_DATE_OF_REVIEW,38,date,Date of initial Commission review
+l_applications_all_details,CNB_DATE_NOTICE_SENT_TO_MUNICIPALITY,39,date,Date notice was sent to the host municipality
+l_applications_all_details,CNB_60_DAY_MUNICIPAL_DEADLINE_DATE,40,date,Sixty day municipal response deadline
+l_applications_all_details,CNB_90_DAY_REVIEW_DEADLINE_DATE,41,date,Ninety day review deadline
+l_applications_all_details,CNB_DATE_BACKGROUND_AUTHORIZATION_SENT,42,date,Date background check authorization was sent
+l_applications_all_details,CNB_DATE_BACKGROUND_REPORT_RECEIVED,43,date,Date the background report was received
+l_applications_all_details,CNB_FINGER_PRINT_RESULTS_RECEIVED_DATE,44,date,Date fingerprint results were received
+l_applications_all_details,CNB_DATE_OF_MUNICIPAL_RESPONSE,45,date,Date the municipality responded
+l_applications_all_details,CNB_FINAL_APPLICATION_REVIEW,46,string,Outcome of the final application review
+l_applications_all_details,CNB_APPLICATION_RECOMMENDATION,47,string,Staff recommendation on the application
+l_applications_all_details,CNB_DATE_OF_FINAL_INSPECTION,48,date,Date of the final inspection
+l_applications_all_details,CNB_FINAL_INSPECTION_RESULT,49,string,Result of the final inspection
+l_applications_all_details,CNB_FINAL_LICENSE_RECOMMENDATION,50,string,Final licensure recommendation
+l_applications_all_details,CNB_DATE_OF_FINAL_LICENSURE,51,date,Date final licensure was granted
+l_applications_all_details,COMMENCE_OPERATIONS_DATE,52,date,Date the establishment was authorized to commence operations
+l_applications_all_details,LIC_ORIGINAL_START_DATE,53,date,Original license start date
+l_applications_all_details,LIC_START_DATE,54,date,Current license term start date
+l_applications_all_details,LIC_EXPIRATION_DATE,55,date,Current license expiration date
+l_applications_all_details,LIC_SUSPENSION_START_DATE,56,date,Suspension start date
+l_applications_all_details,LIC_SUSPENSION_END_DATE,57,date,Suspension end date
+l_applications_all_details,LIC_REVOCATION_DATE,58,date,Revocation date
+l_applications_all_details,LIC_SURRENDERED_DATE,59,date,Date the license was surrendered
+l_applications_all_details,APPLICATION_NUMBER,60,string,Commission application number
+l_applications_all_details,ORIGINAL_SUBMITTED_DATE,61,date,Date the application was first submitted
+l_applications_all_details,SUBMITTED_DATE,62,date,Date of the most recent submission
+l_applications_all_details,APPLICATION_STATUS,63,string,Current application status
+l_applications_all_details,PMT_AMOUNT,64,decimal,Payment amount recorded on the application in US dollars
+l_applications_all_details,APPROVED_SE_NUMBER,65,string,Approved social equity number
+l_applications_all_details,APPLICATION_CREATED_DATE,66,date,Date the application record was created
+l_applications_all_details,APPLICATION_APPROVED_DATE,67,date,Date the application was approved
+l_applications_all_details,LIC_REVOKE_DATE,68,date,Alternate revocation date field
+l_applications_all_details,LIC_SURRENDER_DATE,69,date,Alternate surrender date field
+l_applications_all_details,LIC_SUSPENDED_START_DATE,70,date,Alternate suspension start date field
+l_applications_all_details,LIC_SUSPENDED_END_DATE,71,date,Alternate suspension end date field
+l_applications_all_details,APPLICATION_DENIED_DATE,72,date,Date the application was denied
+l_applications_all_details,LICENSE_NUMBER_BASE,73,string,License number without the suffix and usable as a join key
+l_applications_all_details,ESTABLISHMENT_ADDRESS_1,74,string,Establishment street address line 1
+l_applications_all_details,ESTABLISHMENT_CITY,75,string,Establishment city
+l_applications_all_details,ESTABLISHMENT_STATE,76,string,Establishment state
+l_applications_all_details,ESTABLISHMENT_ZIP,77,string,Establishment ZIP code
+l_applications_all_details,ESTABLISHMENT_COUNTY,78,string,Establishment county
+l_applications_all_details,INDUSTRY,79,string,Market segment such as Adult-Use or Medical
+l_applications_all_details,PRIORITY_STATUS,80,string,Priority status granted to the applicant
+l_applications_all_details,PRIORITY_REVIEW_TYPE,81,string,Type of priority review applied
+l_applications_all_details,CCCLastUpdated,82,date,Date the Commission last refreshed the file
+l_licenses_commence_ops,BUSINESS_NAME,1,string,Legal business name of the licensee
+l_licenses_commence_ops,BUSINESS_EMAIL,2,string,Business contact email provided on the application
+l_licenses_commence_ops,BUSINESS_PHONE,3,string,Business contact phone provided on the application
+l_licenses_commence_ops,BUSINESS_ADDRESS_1,4,string,Business street address line 1
+l_licenses_commence_ops,BUSINESS_ADDRESS_2,5,string,Business street address line 2
+l_licenses_commence_ops,BUSINESS_CITY,6,string,Business address city
+l_licenses_commence_ops,BUSINESS_STATE,7,string,Business address state
+l_licenses_commence_ops,BUSINESS_ZIP_CODE,8,string,Business address ZIP code
+l_licenses_commence_ops,MAILING_ADDRESS_1,9,string,Mailing address line 1
+l_licenses_commence_ops,MAILING_ADDRESS_2,10,string,Mailing address line 2
+l_licenses_commence_ops,MAILING_CITY,11,string,Mailing address city
+l_licenses_commence_ops,MAILING_STATE,12,string,Mailing address state
+l_licenses_commence_ops,MAILING_ZIP_CODE,13,string,Mailing address ZIP code
+l_licenses_commence_ops,EIN_TIN,14,string,Employer or taxpayer identification number as filed
+l_licenses_commence_ops,LICENSE_NUMBER,15,string,Full Commission license number including suffix
+l_licenses_commence_ops,LICENSE_TYPE,16,string,License category held by the establishment
+l_licenses_commence_ops,APPLICATION_CLASSIFICATION,17,string,Application classification assigned by the Commission
+l_licenses_commence_ops,FIRST_COMPLIANCE_REVIEW_DATE,18,date,Date of the first compliance review
+l_licenses_commence_ops,CNB_DEEMED_COMPLETE_DATE,19,date,Date the application was deemed complete
+l_licenses_commence_ops,APPROVED_LICENSE_TYPE,20,string,License type approved by the Commission
+l_licenses_commence_ops,LICENSE_STATUS,21,string,Current license status
+l_licenses_commence_ops,LIC_FEE_PAYMENT_SUBMITTED_DATE,22,date,Date the license fee payment was submitted
+l_licenses_commence_ops,LIC_FEE_AMOUNT,23,decimal,License fee amount in US dollars
+l_licenses_commence_ops,PHYSICAL_ADDRESS_1,24,string,Physical establishment address line 1
+l_licenses_commence_ops,ESTABLISHMENT_ADDRESS_2,25,string,Establishment street address line 2
+l_licenses_commence_ops,PHYSICAL_CITY,26,string,Physical establishment city
+l_licenses_commence_ops,PHYSICAL_ZIP_CODE,27,string,Physical establishment ZIP code
+l_licenses_commence_ops,PRIORITY,28,string,Priority flag recorded on the application
+l_licenses_commence_ops,FEE_WAIVER_REQUEST,29,string,Whether a fee waiver was requested
+l_licenses_commence_ops,FEE_WAIVER_EE_OR_SE_NUMBER,30,string,Economic empowerment or social equity number used for the waiver
+l_licenses_commence_ops,APPROVED_SOCIAL_EQUITY,31,string,Whether social equity status was approved
+l_licenses_commence_ops,EE_PRIORITY_STATUS,32,string,Economic empowerment priority status
+l_licenses_commence_ops,EE_PRIORITY_NUMBER_FROM_ACCOUNT,33,string,Economic empowerment priority number from the account record
+l_licenses_commence_ops,EE_PRIORITY_NUMBER_FROM_APPLICATION,34,string,Economic empowerment priority number from the application record
+l_licenses_commence_ops,RMD_PRIORITY_STATUS,35,string,Registered marijuana dispensary priority status
+l_licenses_commence_ops,RMD_PRIORITY_NUMBER_FROM_ACCOUNT,36,string,RMD priority number from the account record
+l_licenses_commence_ops,RMD_PRIORITY_NUMBER_FROM_APPLICATION,37,string,RMD priority number from the application record
+l_licenses_commence_ops,DBE,38,string,Diversity business category self-reported by the applicant
+l_licenses_commence_ops,CULTIVATION_ENVIRONMNET,39,string,Cultivation environment such as indoor or outdoor (name misspelled at source)
+l_licenses_commence_ops,CULTIVATION_TIER,40,string,Cultivation canopy tier assigned to the license
+l_licenses_commence_ops,CNB_INITIAL_DATE_OF_REVIEW,41,date,Date of initial Commission review
+l_licenses_commence_ops,CNB_DATE_NOTICE_SENT_TO_MUNICIPALITY,42,date,Date notice was sent to the host municipality
+l_licenses_commence_ops,CNB_60_DAY_MUNICIPAL_DEADLINE_DATE,43,date,Sixty day municipal response deadline
+l_licenses_commence_ops,CNB_90_DAY_REVIEW_DEADLINE_DATE,44,date,Ninety day review deadline
+l_licenses_commence_ops,CNB_DATE_BACKGROUND_AUTHORIZATION_SENT,45,date,Date background check authorization was sent
+l_licenses_commence_ops,CNB_DATE_BACKGROUND_REPORT_RECEIVED,46,date,Date the background report was received
+l_licenses_commence_ops,CNB_FINGER_PRINT_RESULTS_RECEIVED_DATE,47,date,Date fingerprint results were received
+l_licenses_commence_ops,CNB_DATE_OF_MUNICIPAL_RESPONSE,48,date,Date the municipality responded
+l_licenses_commence_ops,CNB_FINAL_APPLICATION_REVIEW,49,string,Outcome of the final application review
+l_licenses_commence_ops,CNB_APPLICATION_RECOMMENDATION,50,string,Staff recommendation on the application
+l_licenses_commence_ops,CNB_DATE_OF_FINAL_INSPECTION,51,date,Date of the final inspection
+l_licenses_commence_ops,CNB_FINAL_INSPECTION_RESULT,52,string,Result of the final inspection
+l_licenses_commence_ops,CNB_FINAL_LICENSE_RECOMMENDATION,53,string,Final licensure recommendation
+l_licenses_commence_ops,CNB_DATE_OF_FINAL_LICENSURE,54,date,Date final licensure was granted
+l_licenses_commence_ops,COMMENCE_OPERATIONS_DATE,55,date,Date the establishment was authorized to commence operations
+l_licenses_commence_ops,LIC_ORIGINAL_START_DATE,56,date,Original license start date
+l_licenses_commence_ops,LIC_START_DATE,57,date,Current license term start date
+l_licenses_commence_ops,LIC_EXPIRATION_DATE,58,date,Current license expiration date
+l_licenses_commence_ops,LIC_SUSPENSION_START_DATE,59,date,Suspension start date
+l_licenses_commence_ops,LIC_SUSPENSION_END_DATE,60,date,Suspension end date
+l_licenses_commence_ops,LIC_REVOCATION_DATE,61,date,Revocation date
+l_licenses_commence_ops,LIC_SURRENDERED_DATE,62,date,Date the license was surrendered
+l_licenses_commence_ops,APPLICATION_NUMBER,63,string,Commission application number
+l_licenses_commence_ops,SUBMITTED_DATE,64,date,Date of the most recent submission
+l_licenses_commence_ops,APPLICATION_STATUS,65,string,Current application status
+l_licenses_commence_ops,PMT_AMOUNT,66,decimal,Payment amount recorded on the application in US dollars
+l_licenses_commence_ops,APPROVED_SE_NUMBER,67,string,Approved social equity number
+l_licenses_commence_ops,APPLICATION_CREATED_DATE,68,date,Date the application record was created
+l_licenses_commence_ops,APPLICATION_APPROVED_DATE,69,date,Date the application was approved
+l_licenses_commence_ops,LIC_REVOKE_DATE,70,date,Alternate revocation date field
+l_licenses_commence_ops,LIC_SURRENDER_DATE,71,date,Alternate surrender date field
+l_licenses_commence_ops,LIC_SUSPENDED_START_DATE,72,date,Alternate suspension start date field
+l_licenses_commence_ops,LIC_SUSPENDED_END_DATE,73,date,Alternate suspension end date field
+l_licenses_commence_ops,APPLICATION_DENIED_DATE,74,date,Date the application was denied
+l_licenses_commence_ops,LICENSE_NUMBER_BASE,75,string,License number without the suffix and usable as a join key
+l_licenses_commence_ops,ADDRESS_1,76,string,Geocoded address line 1
+l_licenses_commence_ops,CITY,77,string,Geocoded city
+l_licenses_commence_ops,STATE,78,string,Geocoded state
+l_licenses_commence_ops,ZIP_CODE,79,string,Geocoded ZIP code
+l_licenses_commence_ops,FULL_ADDRESS,80,string,Single line address used for geocoding
+l_licenses_commence_ops,latitude,81,decimal,Latitude of the establishment in decimal degrees
+l_licenses_commence_ops,longitude,82,decimal,Longitude of the establishment in decimal degrees
+l_licenses_commence_ops,county,83,string,County of the establishment
+l_licenses_commence_ops,RECORD_TYPE,84,string,Record type flag used by the Commission
+l_licenses_commence_ops,INDUSTRY,85,string,Market segment such as Adult-Use
+l_licenses_commence_ops,CCCLastUpdated,86,date,Date the Commission last refreshed the file
+l_licenses_mtc,BUSINESS_NAME,1,string,Legal business name of the medical treatment center licensee
+l_licenses_mtc,BUSINESS_EMAIL,2,string,Business contact email provided on the application
+l_licenses_mtc,BUSINESS_PHONE,3,string,Business contact phone provided on the application
+l_licenses_mtc,BUSINESS_ADDRESS_1,4,string,Business street address line 1
+l_licenses_mtc,BUSINESS_ADDRESS_2,5,string,Business street address line 2
+l_licenses_mtc,BUSINESS_CITY,6,string,Business address city
+l_licenses_mtc,BUSINESS_STATE,7,string,Business address state
+l_licenses_mtc,BUSINESS_ZIP_CODE,8,string,Business address ZIP code
+l_licenses_mtc,MAILING_ADDRESS_1,9,string,Mailing address line 1
+l_licenses_mtc,MAILING_ADDRESS_2,10,string,Mailing address line 2
+l_licenses_mtc,MAILING_CITY,11,string,Mailing address city
+l_licenses_mtc,MAILING_STATE,12,string,Mailing address state
+l_licenses_mtc,MAILING_ZIP_CODE,13,string,Mailing address ZIP code
+l_licenses_mtc,EIN_TIN,14,string,Employer or taxpayer identification number as filed
+l_licenses_mtc,LICENSE_NUMBER,15,string,Full Commission license number including suffix
+l_licenses_mtc,LICENSE_TYPE,16,string,License category held by the establishment
+l_licenses_mtc,APPLICATION_CLASSIFICATION,17,string,Application classification assigned by the Commission
+l_licenses_mtc,FIRST_COMPLIANCE_REVIEW_DATE,18,date,Date of the first compliance review
+l_licenses_mtc,CNB_DEEMED_COMPLETE_DATE,19,date,Date the application was deemed complete
+l_licenses_mtc,APPROVED_LICENSE_TYPE,20,string,License type approved by the Commission
+l_licenses_mtc,LICENSE_STATUS,21,string,Current license status
+l_licenses_mtc,LIC_FEE_PAYMENT_SUBMITTED_DATE,22,date,Date the license fee payment was submitted
+l_licenses_mtc,LIC_FEE_AMOUNT,23,decimal,License fee amount in US dollars
+l_licenses_mtc,PHYSICAL_ADDRESS_1,24,string,Physical establishment address line 1
+l_licenses_mtc,ESTABLISHMENT_ADDRESS_2,25,string,Establishment street address line 2
+l_licenses_mtc,PHYSICAL_CITY,26,string,Physical establishment city
+l_licenses_mtc,PHYSICAL_ZIP_CODE,27,string,Physical establishment ZIP code
+l_licenses_mtc,PRIORITY,28,string,Priority flag recorded on the application
+l_licenses_mtc,FEE_WAIVER_REQUEST,29,string,Whether a fee waiver was requested
+l_licenses_mtc,FEE_WAIVER_EE_OR_SE_NUMBER,30,string,Economic empowerment or social equity number used for the waiver
+l_licenses_mtc,APPROVED_SOCIAL_EQUITY,31,string,Whether social equity status was approved
+l_licenses_mtc,EE_PRIORITY_STATUS,32,string,Economic empowerment priority status
+l_licenses_mtc,EE_PRIORITY_NUMBER_FROM_ACCOUNT,33,string,Economic empowerment priority number from the account record
+l_licenses_mtc,EE_PRIORITY_NUMBER_FROM_APPLICATION,34,string,Economic empowerment priority number from the application record
+l_licenses_mtc,RMD_PRIORITY_STATUS,35,string,Registered marijuana dispensary priority status
+l_licenses_mtc,RMD_PRIORITY_NUMBER_FROM_ACCOUNT,36,string,RMD priority number from the account record
+l_licenses_mtc,RMD_PRIORITY_NUMBER_FROM_APPLICATION,37,string,RMD priority number from the application record
+l_licenses_mtc,DBE,38,string,Diversity business category self-reported by the applicant
+l_licenses_mtc,CULTIVATION_ENVIRONMNET,39,string,Cultivation environment such as indoor or outdoor (name misspelled at source)
+l_licenses_mtc,CULTIVATION_TIER,40,string,Cultivation canopy tier assigned to the license
+l_licenses_mtc,CNB_INITIAL_DATE_OF_REVIEW,41,date,Date of initial Commission review
+l_licenses_mtc,CNB_DATE_NOTICE_SENT_TO_MUNICIPALITY,42,date,Date notice was sent to the host municipality
+l_licenses_mtc,CNB_60_DAY_MUNICIPAL_DEADLINE_DATE,43,date,Sixty day municipal response deadline
+l_licenses_mtc,CNB_90_DAY_REVIEW_DEADLINE_DATE,44,date,Ninety day review deadline
+l_licenses_mtc,CNB_DATE_BACKGROUND_AUTHORIZATION_SENT,45,date,Date background check authorization was sent
+l_licenses_mtc,CNB_DATE_BACKGROUND_REPORT_RECEIVED,46,date,Date the background report was received
+l_licenses_mtc,CNB_FINGER_PRINT_RESULTS_RECEIVED_DATE,47,date,Date fingerprint results were received
+l_licenses_mtc,CNB_DATE_OF_MUNICIPAL_RESPONSE,48,date,Date the municipality responded
+l_licenses_mtc,CNB_FINAL_APPLICATION_REVIEW,49,string,Outcome of the final application review
+l_licenses_mtc,CNB_APPLICATION_RECOMMENDATION,50,string,Staff recommendation on the application
+l_licenses_mtc,CNB_DATE_OF_FINAL_INSPECTION,51,date,Date of the final inspection
+l_licenses_mtc,CNB_FINAL_INSPECTION_RESULT,52,string,Result of the final inspection
+l_licenses_mtc,CNB_FINAL_LICENSE_RECOMMENDATION,53,string,Final licensure recommendation
+l_licenses_mtc,CNB_DATE_OF_FINAL_LICENSURE,54,date,Date final licensure was granted
+l_licenses_mtc,COMMENCE_OPERATIONS_DATE,55,date,Date the establishment was authorized to commence operations
+l_licenses_mtc,LIC_ORIGINAL_START_DATE,56,date,Original license start date
+l_licenses_mtc,LIC_START_DATE,57,date,Current license term start date
+l_licenses_mtc,LIC_EXPIRATION_DATE,58,date,Current license expiration date
+l_licenses_mtc,LIC_SUSPENSION_START_DATE,59,date,Suspension start date
+l_licenses_mtc,LIC_SUSPENSION_END_DATE,60,date,Suspension end date
+l_licenses_mtc,LIC_REVOCATION_DATE,61,date,Revocation date
+l_licenses_mtc,LIC_SURRENDERED_DATE,62,date,Date the license was surrendered
+l_licenses_mtc,APPLICATION_NUMBER,63,string,Commission application number
+l_licenses_mtc,SUBMITTED_DATE,64,date,Date of the most recent submission
+l_licenses_mtc,APPLICATION_STATUS,65,string,Current application status
+l_licenses_mtc,PMT_AMOUNT,66,decimal,Payment amount recorded on the application in US dollars
+l_licenses_mtc,APPROVED_SE_NUMBER,67,string,Approved social equity number
+l_licenses_mtc,APPLICATION_CREATED_DATE,68,date,Date the application record was created
+l_licenses_mtc,APPLICATION_APPROVED_DATE,69,date,Date the application was approved
+l_licenses_mtc,LIC_REVOKE_DATE,70,date,Alternate revocation date field
+l_licenses_mtc,LIC_SURRENDER_DATE,71,date,Alternate surrender date field
+l_licenses_mtc,LIC_SUSPENDED_START_DATE,72,date,Alternate suspension start date field
+l_licenses_mtc,LIC_SUSPENDED_END_DATE,73,date,Alternate suspension end date field
+l_licenses_mtc,APPLICATION_DENIED_DATE,74,date,Date the application was denied
+l_licenses_mtc,LICENSE_NUMBER_BASE,75,string,License number without the suffix and usable as a join key
+l_licenses_mtc,ADDRESS_1,76,string,Geocoded address line 1
+l_licenses_mtc,CITY,77,string,Geocoded city
+l_licenses_mtc,STATE,78,string,Geocoded state
+l_licenses_mtc,ZIP_CODE,79,string,Geocoded ZIP code
+l_licenses_mtc,FULL_ADDRESS,80,string,Single line address used for geocoding
+l_licenses_mtc,latitude,81,decimal,Latitude of the establishment in decimal degrees
+l_licenses_mtc,longitude,82,decimal,Longitude of the establishment in decimal degrees
+l_licenses_mtc,county,83,string,County of the establishment
+l_licenses_mtc,RECORD_TYPE,84,string,Record type flag used by the Commission
+l_licenses_mtc,INDUSTRY,85,string,Market segment reported as Medical
+l_licenses_mtc,CCCLastUpdated,86,date,Date the Commission last refreshed the file
+l_licenses_all_details_public,BUSINESS_NAME,1,string,Legal business name of the licensee
+l_licenses_all_details_public,BUSINESS_EMAIL,2,string,Business contact email provided on the application
+l_licenses_all_details_public,BUSINESS_PHONE,3,string,Business contact phone provided on the application
+l_licenses_all_details_public,BUSINESS_ADDRESS_1,4,string,Business street address line 1
+l_licenses_all_details_public,BUSINESS_ADDRESS_2,5,string,Business street address line 2
+l_licenses_all_details_public,BUSINESS_CITY,6,string,Business address city
+l_licenses_all_details_public,BUSINESS_STATE,7,string,Business address state
+l_licenses_all_details_public,BUSINESS_ZIP_CODE,8,string,Business address ZIP code
+l_licenses_all_details_public,MAILING_ADDRESS_1,9,string,Mailing address line 1
+l_licenses_all_details_public,MAILING_ADDRESS_2,10,string,Mailing address line 2
+l_licenses_all_details_public,MAILING_CITY,11,string,Mailing address city
+l_licenses_all_details_public,MAILING_STATE,12,string,Mailing address state
+l_licenses_all_details_public,MAILING_ZIP_CODE,13,string,Mailing address ZIP code
+l_licenses_all_details_public,EIN_TIN,14,string,Employer or taxpayer identification number as filed
+l_licenses_all_details_public,LICENSE_NUMBER,15,string,Full Commission license number including suffix
+l_licenses_all_details_public,LICENSE_TYPE,16,string,License category held by the establishment
+l_licenses_all_details_public,REVIEW_PRIORITY,17,string,Review track assigned to the application
+l_licenses_all_details_public,FIRST_COMPLIANCE_REVIEW_DATE,18,date,Date of the first compliance review
+l_licenses_all_details_public,CNB_DEEMED_COMPLETE_DATE,19,date,Date the application was deemed complete
+l_licenses_all_details_public,APPROVED_LICENSE_STAGE,20,string,Licensing stage reached by the application
+l_licenses_all_details_public,LICENSE_STATUS,21,string,Current license status
+l_licenses_all_details_public,LIC_FEE_PAYMENT_SUBMITTED_DATE,22,date,Date the license fee payment was submitted
+l_licenses_all_details_public,LIC_FEE_AMOUNT,23,decimal,License fee amount in US dollars
+l_licenses_all_details_public,ESTABLISHMENT_ADDRESS_2,24,string,Establishment street address line 2
+l_licenses_all_details_public,PRIORITY,25,string,Priority flag recorded on the application
+l_licenses_all_details_public,FEE_WAIVER_REQUEST,26,string,Whether a fee waiver was requested
+l_licenses_all_details_public,FEE_WAIVER_EE_OR_SE_NUMBER,27,string,Economic empowerment or social equity number used for the waiver
+l_licenses_all_details_public,APPROVED_SOCIAL_EQUITY,28,string,Whether social equity status was approved
+l_licenses_all_details_public,EE_PRIORITY_STATUS,29,string,Economic empowerment priority status
+l_licenses_all_details_public,EE_PRIORITY_NUMBER_FROM_ACCOUNT,30,string,Economic empowerment priority number from the account record
+l_licenses_all_details_public,EE_PRIORITY_NUMBER_FROM_APPLICATION,31,string,Economic empowerment priority number from the application record
+l_licenses_all_details_public,RMD_PRIORITY_STATUS,32,string,Registered marijuana dispensary priority status
+l_licenses_all_details_public,RMD_PRIORITY_NUMBER_FROM_ACCOUNT,33,string,RMD priority number from the account record
+l_licenses_all_details_public,RMD_PRIORITY_NUMBER_FROM_APPLICATION,34,string,RMD priority number from the application record
+l_licenses_all_details_public,CULTIVATION_ENVIRONMNET,35,string,Cultivation environment such as indoor or outdoor (name misspelled at source)
+l_licenses_all_details_public,CULTIVATION_TIER,36,string,Cultivation canopy tier assigned to the license
+l_licenses_all_details_public,CNB_DATE_OF_FINAL_LICENSURE,37,date,Date final licensure was granted
+l_licenses_all_details_public,COMMENCE_OPERATIONS_DATE,38,date,Date the establishment was authorized to commence operations
+l_licenses_all_details_public,LIC_ORIGINAL_START_DATE,39,date,Original license start date
+l_licenses_all_details_public,LIC_START_DATE,40,date,Current license term start date
+l_licenses_all_details_public,LIC_EXPIRATION_DATE,41,date,Current license expiration date
+l_licenses_all_details_public,LIC_SUSPENSION_START_DATE,42,date,Suspension start date
+l_licenses_all_details_public,LIC_SUSPENSION_END_DATE,43,date,Suspension end date
+l_licenses_all_details_public,LIC_REVOCATION_DATE,44,date,Revocation date
+l_licenses_all_details_public,LIC_SURRENDERED_DATE,45,date,Date the license was surrendered
+l_licenses_all_details_public,APPLICATION_NUMBER,46,string,Commission application number
+l_licenses_all_details_public,ORIGINAL_SUBMITTED_DATE,47,date,Date the application was first submitted
+l_licenses_all_details_public,SUBMITTED_DATE,48,date,Date of the most recent submission
+l_licenses_all_details_public,PMT_AMOUNT,49,decimal,Payment amount recorded on the application in US dollars
+l_licenses_all_details_public,APPROVED_SE_NUMBER,50,string,Approved social equity number
+l_licenses_all_details_public,APPLICATION_CREATED_DATE,51,date,Date the application record was created
+l_licenses_all_details_public,APPLICATION_APPROVED_DATE,52,date,Date the application was approved
+l_licenses_all_details_public,LIC_REVOKE_DATE,53,date,Alternate revocation date field
+l_licenses_all_details_public,LIC_SURRENDER_DATE,54,date,Alternate surrender date field
+l_licenses_all_details_public,LIC_SUSPENDED_START_DATE,55,date,Alternate suspension start date field
+l_licenses_all_details_public,LIC_SUSPENDED_END_DATE,56,date,Alternate suspension end date field
+l_licenses_all_details_public,APPLICATION_DENIED_DATE,57,date,Date the application was denied
+l_licenses_all_details_public,LICENSE_NUMBER_BASE,58,string,License number without the suffix and usable as a join key
+l_licenses_all_details_public,ESTABLISHMENT_ADDRESS_1,59,string,Establishment street address line 1
+l_licenses_all_details_public,ESTABLISHMENT_CITY,60,string,Establishment city
+l_licenses_all_details_public,ESTABLISHMENT_STATE,61,string,Establishment state
+l_licenses_all_details_public,ESTABLISHMENT_ZIP,62,string,Establishment ZIP code
+l_licenses_all_details_public,ESTABLISHMENT_COUNTY,63,string,Establishment county
+l_licenses_all_details_public,DBE,64,string,Diversity business category self-reported by the applicant
+l_licenses_all_details_public,INDUSTRY,65,string,Market segment such as Adult-Use or Medical
+l_licenses_all_details_public,PRIORITY_STATUS,66,string,Priority status granted to the applicant
+l_licenses_all_details_public,PRIORITY_REVIEW_TYPE,67,string,Type of priority review applied
+l_licenses_all_details_public,COMMENCE_OPS,68,string,Flag indicating whether operations have commenced
+l_licenses_all_details_public,LICENSE_STATUS_CATEGORY,69,string,Grouped license status category
+l_licenses_all_details_public,CCCLastUpdated,70,date,Date the Commission last refreshed the file
