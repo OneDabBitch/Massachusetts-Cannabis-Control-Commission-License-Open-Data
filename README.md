@@ -8,6 +8,10 @@ This repository publishes the dataset catalog from the **Cannabis Control Commis
 
 Each dataset below is served directly by the Commission as CSV and as a JSON API endpoint. The files are not mirrored here; this repository is a machine-readable index pointing at the authoritative source. A `datasets.csv` manifest in this repo lists the same entries for programmatic use.
 
+## Repository files
+
+`datasets.csv` lists one row per dataset with a `dataset_id` join key and a normalized `type` of `adult_use`, `medical` or `both` for filtering, keeping the Commission's own wording in `type_label`. `fields.csv` documents every column of every dataset with its source name, position, inferred data type and a plain-language description. `SCHEMA.md` describes both manifests, the type vocabulary and known quirks at the source. Column descriptions are inferred from the published headers and sample rows because the Commission does not publish a data dictionary.
+
 ## Applications and Licenses
 
 | Type | Dataset | CSV | JSON API |
